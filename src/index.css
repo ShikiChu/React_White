@@ -33,3 +33,9 @@ body {
   .content li {
     margin-bottom: 10px;
   }
+
+  .component-title {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+  }
