@@ -1,19 +1,25 @@
 import React, { Component } from "react";
- 
+
 class Members extends Component {
   render() {
     return (
-      <div>
-        <h2>Members</h2>
-        <p>White Group name list:</p>
-        <ol>
-          <li>Ai</li>
-          <li>Haneih</li>
-          <li>Mariana</li>
-          <li>Miku</li>
-          <li>Shiki</li>
-        </ol>
+     
+      <div
+      style={{
+      display:'flex', textAlign:'center',justifyContent:'flex-start', paddingLeft:'25%',
+      }}>
+        
+        <img style={{maxWidth:'300px',maxHeight:'300px',width:'auto',height:'auto'}} 
+        src={require('./pictures/team.jpg')} alt="team-pic"></img>
+        <ul id="teamlist">
+          <li className="memberNames">Ai</li>
+          <li className="memberNames">Haneih</li>
+          <li className="memberNames">Mariana</li>
+          <li className="memberNames">Miku</li>
+          <li className="memberNames">Shiki</li>
+        </ul>
       </div>
+      
     );
   }
 }
