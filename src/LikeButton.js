@@ -7,13 +7,17 @@ function LikeButton(props) {
     <div style={{ margin: '20px' }}>
       <button
         style={{
+          marginTop:'30px',
           padding: '10px 20px',
           fontSize: '16px',
           cursor: 'pointer',
-          backgroundColor: '#008CBA',
-          color: 'white',
-          border: 'none',
-          borderRadius: '5px'
+          backgroundColor: '#2E8B57	',
+          color: 'black',
+          fontWeight:'bolder',
+        
+          border:'3px solid #534741 ',
+          borderRadius: '20px',
+          font:'inherit'
         }}
         onClick={() => setCount(count + 1)}
       >

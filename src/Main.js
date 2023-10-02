@@ -10,14 +10,24 @@ import Members from "./Members";
 import Contact from "./Contact";
 import Counter from "./Counter";
 import Hello from "./Hello"
+
  
+const navBar = {
+    background: 'transparent',
+    border: '3px solid #534741',
+    borderRadius: '20px', 
+    marginLeft: '15%', 
+    marginRight: '15%',
+    color:'black',
+    display:'flex',
+}
 class Main extends Component {
   render() {
     return (
         <HashRouter>
-            <div>
-              <h1>White Group React Presentation</h1>
-              <ul className="header">
+            <div >
+              
+              <ul className="header" style={navBar}>
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/members">Members</NavLink></li>
                 <li><NavLink to="/counter">Counter</NavLink></li> 

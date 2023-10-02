@@ -5,9 +5,10 @@ function Memo() {
     <div style={{ position: 'relative'}}>
       <div className='memo'
         style={{
+          marginTop:'80px',
           padding: '10px 20px',
-          fontFamily: 'sans-serif',
-          color: '#a3871d',
+        font:'inherit',
+          color: 'black',
           fontSize: '16px',
           display: 'flex',
           alignItems: 'center',
