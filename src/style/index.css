@@ -1,0 +1,60 @@
+body {
+    background-color: #f6e0c8;
+    padding: 20px;
+    margin: 0;
+    font-family: monospace;
+    color: #534741;
+  }
+  .buttonCompo{
+    width: 50%;
+    text-align: center;
+    padding-top: 5%;
+    
+  }
+  #teamlist{
+    padding-top:5%;
+  }
+.memberNames{
+  display: block;
+  font-size: larger;
+}
+  ul.header li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    text-align: center;
+    color: black;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+  }
+  ul.header li a {
+   color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    font-size: larger;
+   
+   
+
+  }
+  .content {
+   
+    padding: 20px;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+
+  .component-title {
+    font-size: 20px;
+    margin-top: 0;
+  }

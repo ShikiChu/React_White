@@ -10,6 +10,7 @@ import Members from "./Members";
 import Contact from "./Contact";
 import Counter from "./Counter";
 import Hello from "./Hello"
+import Optimizing from "./Optimizing"
 
  
 const navBar = {
@@ -31,7 +32,8 @@ class Main extends Component {
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/members">Members</NavLink></li>
                 <li><NavLink to="/counter">Counter</NavLink></li> 
-                <li><NavLink to="/hello">Hello</NavLink></li> 
+                <li><NavLink to="/hello">Hello</NavLink></li>
+                <li><NavLink to="/optimizing">Optimizing</NavLink></li>
                 <li><NavLink to="/contact">Contact Us</NavLink></li>
               </ul>
 
@@ -42,6 +44,7 @@ class Main extends Component {
                   {/* https://teamtreehouse.com/community/updated-reactrouterdom-v6-render-does-not-work-fixed-it-by-adding-title-to-elementabout-titleabout */}
                   <Route path="/counter" element={<Counter />} />
                   <Route path="/hello" element={<Hello />} />
+                  <Route path="/optimizing" element={<Optimizing />} />
                   <Route path="/contact" element={<Contact title='Contact' /> } />
                 </Routes>
               </div>
